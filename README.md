@@ -1,3 +1,5 @@
+[![Tests](https://github.com/sir-go/atol-client/actions/workflows/python-tests.yml/badge.svg?branch=main)](https://github.com/sir-go/atol-client/actions/workflows/python-tests.yml)
+
 ## Web Client Lib for [ATOL POS](https://www.atol.ru/catalog/pos-sistemy) terminal
 
 A small library - client for ATOL API

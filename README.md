@@ -1,11 +1,9 @@
 [![Tests](https://github.com/sir-go/atol-client/actions/workflows/python-tests.yml/badge.svg?branch=main)](https://github.com/sir-go/atol-client/actions/workflows/python-tests.yml)
 
-## Web Client Lib for [ATOL POS](https://www.atol.ru/catalog/pos-sistemy) terminal
-
+# Web Client Lib for [ATOL POS](https://www.atol.ru/catalog/pos-sistemy) terminal
 A small library - client for ATOL API
 
-### Implemented functions
-
+## Implemented functions
  - buy
  - buyCorrection
  - buyReturn
@@ -31,18 +29,18 @@ A small library - client for ATOL API
  - sellCorrection
  - sellReturn
 
-### Install
+## Install
 ```bash
 pip install atol-client
 ```
 
-### Tests
+## Tests
 ```bash
 pip install -r requirements.txt
 flake8 . --show-source --statistics && python -m pytest .
 ```
 
-### Usage
+## Usage
 ```python
 from atol import WebClient
 
